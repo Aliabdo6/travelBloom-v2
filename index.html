@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="./travel_recommendation.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TravelBloom - Home</title>
+  </head>
+  <body>
+    <nav>
+      <h3>TravelBloom</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="about_us.html">About Us</a>
+        </li>
+        <li>
+          <a href="contact_us.html">Contact Us</a>
+        </li>
+      </ul>
+      <div class="searchbarContainer">
+        <input
+          type="text"
+          id="searchbarInput"
+          placeholder="Country, beach, temple..."
+        />
+        <button class="btn" id="searchBtn">
+          Search
+        </button>
+        <button class="btn" id="clearBtn">
+          Clear
+        </button>
+      </div>
+    </nav>
+    <main>
+      <aside>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          ><img
+            src="./assets/twitter.png"
+            alt="twitter icon"
+        /></a>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          ><img
+            src="./assets/facebook.png"
+            alt="facebook icon"
+        /></a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          ><img
+            src="./assets/instagram.png"
+            alt="instagram icon"
+        /></a>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          ><img
+            src="./assets/youtube.png"
+            alt="youtube icon"
+        /></a>
+      </aside>
+      <section class="hero">
+        <h1 class="title">
+          Explore Dream Destinations
+        </h1>
+        <p class="description">
+          Discover diverse cultures and
+          landscapes, and pursue your dream
+          destinations that captivate your heart
+          and ignite your sense of wonder.
+        </p>
+        <button class="booknowBtn btn">
+          BOOK NOW
+        </button>
+      </section>
+      <section
+        class="recommendations"
+        id="recommendations"
+      >
+        <!-- Dynamic content will be loaded here -->
+      </section>
+    </main>
+    <script
+      defer
+      src="./travel_recommendation.js"
+    ></script>
+  </body>
+</html>
